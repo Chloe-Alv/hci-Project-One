@@ -10,9 +10,34 @@
     </header>
     <main id="content">
       <form aria-labelledby="label-payment" name="payment">
-
+        <ol>
+          <li>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name"
+            autocomplete="cc-given-name" />
+          </li>
+          <li>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name"
+            autocomplete="cc-family-name" />
+          </li>
+          <li>
+            <label for="card-number">Card Number</label>
+            <input type="text" name="card-number" id="card-number"
+            autocomplete="cc-number" />
+          </li>
+          <li>
+            <label for="expiration-date">Expiration Date</label>
+            <input type="text" name="expiration-date" id="expiration-date"
+            autocomplete="cc-exp" />
+          </li>
+          <li>
+            <label for="security-number">Security Code</label>
+            <input type="text" name="security-number" id="security-number"
+            autocomplete="cc-csc" />
+          </li>
+        </ol>
       </form>
-
     </main>
     <footer>
     </footer>
