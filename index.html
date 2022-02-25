@@ -49,6 +49,23 @@
             <label for="zip-code">Zip Code</label>
             <input type="text" name="zip-code" id="zip-code" autocomplete="postal-code" />
           </li>
+          <li>
+            Delivery Options
+            <ul id="delivery-options">
+              <li>
+                <input type="radio" name="delivery" id="standard" value="standard" />
+                <label for="standard">Standard Delivery (5-7 business days)</label>
+              </li>
+              <li>
+                <input type="radio" name="delivery" id="express" value="express" />
+                <label for="express">Express Delivery (2-3 business days)</label>
+              </li>
+              <li>
+                <input type="radio" name="delivery" id="next-day" value="next-day" />
+                <label for="next-day">Next Day Delivery (1-2 business days)</label>
+              </li>
+            </ul>
+          </li>
         </ol>
       </form>
     </main>
