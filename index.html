@@ -11,63 +11,65 @@
     </header>
     <main id="content">
       <form aria-labelledby="label-shipping" name="shipping">
-        <ol>
-          <li>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name" autocomplete="given-name" />
-          </li>
-          <li>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last-name" id="last-name" autocomplete="family-name" />
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" autocomplete="email" />
-          </li>
-          <li>
-            <label for="address-line-one">Address Line 1</label>
-            <input type="text" name="address-line-one" id="address-line-one"
-            autocomplete="address-line1" />
-          </li>
-          <li>
-            <label for="address-line-two">Address Line 2</label>
-            <input type="text" name="address-line-two" id="address-line-two"
-            autocomplete="address-line2" />
-          </li>
-          <li>
-            <label for="country">Country</label>
-            <input type="text" name="country" id="country" autocomplete="country" />
-          </li>
-          <li>
-            <label for="city">City</label>
-            <input type="text" name="city" id="city" autocomplete="address-level2" />
-          </li>
-          <li>
-            <label for="state">State</label>
-            <input type="text" name="state" id="state" autocomplete="address-level1" />
-          </li>
-          <li>
-            <label for="zip-code">Zip Code</label>
-            <input type="text" name="zip-code" id="zip-code" autocomplete="postal-code" />
-          </li>
-          <li>
-            Delivery Options
-            <ul id="delivery-options">
-              <li>
-                <input type="radio" name="delivery" id="standard" value="standard" />
-                <label for="standard">Standard Delivery (5-7 business days)</label>
-              </li>
-              <li>
-                <input type="radio" name="delivery" id="express" value="express" />
-                <label for="express">Express Delivery (2-3 business days)</label>
-              </li>
-              <li>
-                <input type="radio" name="delivery" id="next-day" value="next-day" />
-                <label for="next-day">Next Day Delivery (1-2 business days)</label>
-              </li>
-            </ul>
-          </li>
-        </ol>
+        <fieldset id="shipping-info">
+          <ol>
+            <li>
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" autocomplete="given-name" />
+            </li>
+            <li>
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" autocomplete="family-name" />
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" autocomplete="email" />
+            </li>
+            <li>
+              <label for="address-line-one">Address Line 1</label>
+              <input type="text" name="address-line-one" id="address-line-one"
+              autocomplete="address-line1" />
+            </li>
+            <li>
+              <label for="address-line-two">Address Line 2</label>
+              <input type="text" name="address-line-two" id="address-line-two"
+              autocomplete="address-line2" />
+            </li>
+            <li>
+              <label for="country">Country</label>
+              <input type="text" name="country" id="country" autocomplete="country" />
+            </li>
+            <li>
+              <label for="city">City</label>
+              <input type="text" name="city" id="city" autocomplete="address-level2" />
+            </li>
+            <li>
+              <label for="state">State</label>
+              <input type="text" name="state" id="state" autocomplete="address-level1" />
+            </li>
+            <li>
+              <label for="zip-code">Zip Code</label>
+              <input type="text" name="zip-code" id="zip-code" autocomplete="postal-code" />
+            </li>
+          </ol>
+        </fieldset>
+        <fieldset id="delivery-options">
+          <h3>Delivery Options</h3>
+          <ul>
+            <li>
+              <input type="radio" name="delivery" id="standard" value="standard" />
+              <label for="standard">Standard Delivery (5-7 business days)</label>
+            </li>
+            <li>
+              <input type="radio" name="delivery" id="express" value="express" />
+              <label for="express">Express Delivery (2-3 business days)</label>
+            </li>
+            <li>
+              <input type="radio" name="delivery" id="next-day" value="next-day" />
+              <label for="next-day">Next Day Delivery (1-2 business days)</label>
+            </li>
+          </ul>
+        </fieldset>
         <button type="button" id="back-bottton" name="back-btn">Back</button>
         <button type="button" id="next-botton" name="next-btn">Next</button>
       </form>
