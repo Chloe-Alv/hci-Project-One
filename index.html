@@ -76,6 +76,33 @@
           <label for="billing-address">I have the same billing address and shipping address</label>
         </fieldset>
 
+        <fieldset name="different-address">
+          <ol>
+            <li>
+              <label for="address-one">Address Line 1</label>
+              <input type="text" name="address-one" id="address-one"
+              autocomplete="address-line1" />
+            </li>
+            <li>
+              <label for="address-two">Address Line 2</label>
+              <input type="text" name="address-two" id="address-two"
+              autocomplete="address-line2" />
+            </li>
+            <li>
+              <label for="country-bill">Country</label>
+              <input type="text" name="country-bill" id="country-bill" autocomplete="country" />
+            </li>
+            <li>
+              <label for="city-bill">City</label>
+              <input type="text" name="city-bill" id="city-bill" autocomplete="address-level2" />
+            </li>
+            <li>
+              <label for="zip-code-bill">Zip Code</label>
+              <input type="text" name="zip-code-bill" id="zip-code-bill"
+              autocomplete="postal-code" />
+            </li>
+          </ol>
+        </fieldset>
 
       </form>
     </main>
