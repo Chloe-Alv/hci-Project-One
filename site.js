@@ -1,5 +1,5 @@
 'use-strict';
 
-document.getElementById("next-button").onclick = function () {
-  location.href = "../payment"
+document.getElementById("yes-button").onclick = function () {
+  location.href = "../shipping"
 };
